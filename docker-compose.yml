@@ -1,0 +1,15 @@
+version: "3.3"
+services:
+  backendApp:
+    image: "naviabackend:v2.2"
+    tty: true
+    deploy:
+      replicas: 1
+    ports:
+      - 80:80
+      - 5432:5432
+    volumes:
+      - backendLogs:/var/log/apache2
+  
+volumes:
+  backendLogs:
