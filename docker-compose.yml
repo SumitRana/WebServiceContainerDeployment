@@ -7,7 +7,6 @@ services:
       replicas: 1
     ports:
       - 80:80
-      - 5432:5432
     volumes:
       - backendLogs:/var/log/apache2
   

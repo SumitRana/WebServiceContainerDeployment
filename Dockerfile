@@ -1,4 +1,4 @@
-FROM ubuntu
+FROM ubuntu:18.04
 
 # update system repository
 RUN apt-get update --fix-missing
