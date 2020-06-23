@@ -1,3 +1,5 @@
-# MRapp-project
+# General Dockerised Service for Django deployment 
 
-Contains Backend, Web frontend and Deployment code .
+Containerization template
+
+# Do Necessary Custom changes in wsgi, VirtualHosts/000-default.conf, Dockerfile or docker-compose depending upon the requirements .
